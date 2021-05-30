@@ -1,0 +1,26 @@
+
+img {
+    width: 30%;
+    float: right;
+    float-displace: 44vw;
+}
+button {
+    margin: 20px 10px;
+    padding: 10px 15px;
+    border: none;
+    text-decoration: none;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: white;
+    background: rgb(90, 22,120);
+    transition: background 200ms ease-in-out;
+}
+button:hover{
+    background: red;
+}
+.container{
+    display: grid;
+    grid-template-color: auto auto auto;
+    justify-content: center ;
+
+}
